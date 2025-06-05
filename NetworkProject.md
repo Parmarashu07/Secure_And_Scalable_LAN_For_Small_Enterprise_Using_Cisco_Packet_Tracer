@@ -23,31 +23,6 @@
 
 ---
 
-## Addressing
-
-- Sede Leiria:
-  - Rede Vendas: 10.10.0.0/26 (64 addresses)
-  - Rede Recursos Humanos: 10.10.0.64/27 (32 addresses)
-  - Rede Administra¸c˜ao: 10.10.0.96/28 (16 addresses)
-- Filial Porto:
-  - Rede Vendas: 10.10.0.112/26 (64 addresses)
-  - Rede Recursos Humanos: 10.10.0.192/27 (32 addresses)
-  - Rede Administra¸c˜ao: 10.10.0.224/28 (16 addresses)
-- Filial Lisboa:
-  - Rede Vendas: 10.10.1.0/26 (64 addresses)
-  - Rede Recursos Humanos: 10.10.1.64/27 (32 addresses)
-  - Rede Administra¸c˜ao: 10.10.1.112/27 (16 addresses)
-- Servidores
-  - Web: 10.10.50.0/30
-  - FTP: 10.10.50.4/30
-- FrameRelays
-  - Router-Porto: 10.10.100.2
-  - Router-Lisboa: 10.10.200.2
-  - Leiria-Sede Router-Lisboa: 10.10.200.1
-  - Leiria-Sede Router-Porto: 10.10.100.1
-
----
-
 ## Configurations
 
 ### ACL 
@@ -262,4 +237,4 @@ username cisco password class
 ```
 ---
 
-Project made in conjunction with my colleague Tiago Pereira.
+Project made in conjunction with my colleague Ayush.
